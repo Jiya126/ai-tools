@@ -23,6 +23,13 @@ poetry install
 quart --app api --debug run
 ```
 
+### Error on POST request
+On creating the env as mentioned in Setup and then running ``` quart --app api --debug run ```
+This hosts locally. Now, manually add the `` /coref/spacy/local `` to the locally hosted url
+This makes the GET request 
+To make the POST request, I'm trying to run the [post_req_coref.py](https://github.com/Jiya126/ai-tools/blob/coref_jz/post_req_coref.py)
+But the POST request is throwing error 401 i.e. the authorization error. What authorization keys to add in order to make the post request and make the API call
+
 ## Poetry Fixes
 
 ```shell
